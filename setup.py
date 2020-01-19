@@ -8,14 +8,14 @@ def readme():
 
 
 setup(
-    name='Level Up RPG',
+    name='Level_Up_RPG',
     version='1',
-    packages=['Level Up RPG'],
-    url='',
+    packages=['Level_Up_RPG'],
+    url='https://github.com/DtjiAppDev/LEVEL_UP_RPG',
     license='MIT',
     author='Dtji AppDev',
     author_email='dtjiappdev1999@gmail.com',
-    description='This package contains implementation of the game "Level Up RPG".',
+    description='This package contains implementation of the game "Level_Up_RPG".',
     long_description=readme(),
     long_description_content_type="text/markdown",
     include_package_data=True,
@@ -26,7 +26,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "Level Up RPG=Level Up RPG.level_up_rpg:main",
+            "Level_Up_RPG=Level_Up_RPG.level_up_rpg:main",
         ]
     }
 )

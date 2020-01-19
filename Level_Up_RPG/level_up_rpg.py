@@ -1,5 +1,5 @@
 """
-This file contains source code of the game "Level Up RPG".
+This file contains source code of the game "Level_Up_RPG".
 Author: DtjiAppDev
 """
 
@@ -110,7 +110,7 @@ def main():
     :return: None
     """
 
-    print("Welcome to Level Up RPG! In this game, you will play as long as you survive in this game.")
+    print("Welcome to Level_Up_RPG! In this game, you will play as long as you survive in this game.")
     print("This game is about levelling up as much as possible and going as far as possible.")
     name: str = input("Please enter your name: ")
     player: Player = Player(name)
